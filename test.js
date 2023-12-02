@@ -19,3 +19,11 @@ function validateForm(form) {
 function parseJSON(json) {
   return JSON.parse(json);
 }
+
+/*
+1. Write a function to parse a string into an integer.
+*/
+function parseInteger(str) {
+  return parseInt(str);
+}
+

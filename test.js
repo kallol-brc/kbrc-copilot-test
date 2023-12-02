@@ -27,3 +27,10 @@ function parseInteger(str) {
   return parseInt(str);
 }
 
+/*
+Write a function to validate phone numbers in the format of (123) 456-7890.
+*/
+function validatePhone(str) {
+  let regex = /^\(\d{3}\)\s\d{3}-\d{4}$/;
+  return regex.test(str);
+}
